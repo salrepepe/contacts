@@ -1,5 +1,5 @@
 @import url("../assets/libs/bootstrap/bootstrap-grid.min.css");
-@import url("http://fonts.cdnfonts.com/css/gilroy-bold");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400&display=swap");
 
 :root {
   --color-primary: #4985ff;
@@ -10,7 +10,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Gilroy-Light";
+  font-family: "Montserrat";
 }
 
 body {
@@ -204,8 +204,7 @@ main table tbody td img {
 }
 
 .details h2 {
-  font-family: "Gilroy-Bold";
-  font-weight: 500;
+  font-weight: 800;
 }
 
 .details .user-info {
