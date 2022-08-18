@@ -14,7 +14,7 @@ const Home = ({ contacts, searchContact, setContacts }) => {
       ),
     [searchContact]
   );
-  
+
   // if user enter a value to field then show matching variants
   // else show all contacts
   const allContacts = searchContact ? search : contacts;
@@ -27,7 +27,6 @@ const Home = ({ contacts, searchContact, setContacts }) => {
           focusable="false"
           data-prefix="fas"
           data-icon="plus"
-          class="svg-inline--fa fa-plus fa-w-14"
           role="img"
           xmlns="http://www.w3.org/2000/svg"
           viewBox="0 0 448 512"

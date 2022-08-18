@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import { useLocation } from "react-router";
 import avatar from "../../assets/images/favicon.svg";
 
-const Header = ({ setSearchContact, setDrawerOpen, drawerOpen }) => {
+const Header = ({ setSearchContact }) => {
   const location = useLocation();
   return (
     <header className="header">

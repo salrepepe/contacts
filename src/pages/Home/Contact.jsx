@@ -7,7 +7,7 @@ const Contact = ({ item, contacts, setContacts }) => {
   const deleteHandler = (id) => {
     let filteredArr = contacts.filter((item) => item.id != id);
     localStorage.setItem("contacts", JSON.stringify(filteredArr));
-    setContacts(filteredArr);
+    setContacts(filteredArrrepl
   };
 
   return (
@@ -51,7 +51,6 @@ const Contact = ({ item, contacts, setContacts }) => {
               focusable="false"
               data-prefix="fas"
               data-icon="edit"
-              class="svg-inline--fa fa-edit fa-w-18"
               role="img"
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 576 512"
@@ -68,7 +67,6 @@ const Contact = ({ item, contacts, setContacts }) => {
               focusable="false"
               data-prefix="fas"
               data-icon="trash-alt"
-              class="svg-inline--fa fa-trash-alt fa-w-14"
               role="img"
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 448 512"
